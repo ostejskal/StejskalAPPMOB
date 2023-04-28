@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".ZobrazeniHry">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@mipmap/logogamepadvylepsene" />
+
+    <TextView
+        android:id="@+id/nazev"
+        android:text="NazevHry"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/texthry"
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"  />
+    <TextView
+        android:id="@+id/odkaznahru"
+        android:text="odkaz na hru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"  />
+    <TextView
+        android:id="@+id/odkaznahrufreetoplay"
+        android:text="odkaz na hru free to play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="60dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"  />
+    <TextView
+        android:id="@+id/vydavatel"
+        android:text="vydavatel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"  />
+    <TextView
+        android:id="@+id/tvurce"
+        android:text="tvurce"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"  />
+    <TextView
+    android:id="@+id/datum"
+    android:text="datum"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="10dp"
+    android:layout_marginTop="120dp"
+        android:textColor="@android:color/white"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"  />
+    <TextView
+    android:id="@+id/platforma"
+    android:text="platforma"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+    android:textSize="20dp"
+    android:layout_marginTop="120dp"
+    android:layout_alignParentBottom="true" />
+    <TextView
+        android:id="@+id/zanr"
+        android:text="zanr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="right"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentBottom="true" />
+    <TextView
+        android:id="@+id/id"
+        android:text="id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/zpet"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:text="Back"
+        android:background="@drawable/tlacitka"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StejskalAPPMOB</string>
+    <string name="title_hra_list">Hra</string>
+    <string name="title_hra_detail">Hra Detail</string>
+</resources>

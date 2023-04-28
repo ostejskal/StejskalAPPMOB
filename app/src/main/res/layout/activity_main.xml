@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/zjistitvice"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tlacitka"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:visibility="gone"
+        android:text="Rekni mi o tom vic!" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@mipmap/logogamepadvylepsene"
+        android:alpha="0.3"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tlacitka"
+        android:layout_marginBottom="110dp"
+        android:text="Vyhledej tuto hru! ->" />
+
+    <EditText
+        android:id="@+id/vstupuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="textPersonName"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="110dp"
+        android:text="" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_centerInParent="true"
+
+        android:background="#FFEB3B"
+        android:layout_alignParentBottom="true"
+
+        android:id="@+id/zarovnani1">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/tlacitka"
+            android:layout_alignParentRight="true"
+            android:layout_height="30dp"
+            android:text="RNG!" />
+
+        <TextView
+            android:id="@+id/nazevzdroj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B"
+            android:text="zdroj API FreeToGame.com"
+            android:textAlignment="center"
+            android:textColor="#f0a0"
+            android:textSize="25px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/zarovnani2"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/nazev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFEB3B"
+                android:text="Free to play games"
+                android:textAlignment="center"
+                android:textColor="#f0a"
+                android:textSize="50px"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10px"
+        android:id="@+id/zarovnani3">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor: Ondrej Stejskal 2021"
+            android:textColor="#f0a0"
+            android:background="#FFEB3B"
+            android:textSize="15px"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zarovnani2"
+        android:text="Welcome!"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="30px" />
+
+
+</RelativeLayout>
